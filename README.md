@@ -1,8 +1,10 @@
 # calculate-solana-address
 
-旨在计算出自定义尾号字符的solana地址(Designed to calculate the solana address of a custom tail character)
+该程序旨在获取自定义尾号字符的solana地址(This program is designed to get the solana address of a custom tail number character)
 
-运行该程序前第一步应该安装Node.js环境(The first step before running this program should be to install the Node.js environment)
+使用方法(Instructions)：
+
+第一步安装Node.js环境(The first step is to install the Node.js environment)
 
 第二步安装solana包：npm i @solana/web3.js(The second step is to install the solana package: npm i @solana/web3.js)
 
