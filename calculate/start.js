@@ -25,8 +25,9 @@ for (let i = 0; i < numThreads; i++) {
             console.log(`Private Key: ${message.secretKey}`);
             console.log(`Total Attempts: ${totalAttempts + message.attempts}`);
             saveAddress(message.address, message.secretKey, totalAttempts + message.attempts);
-            process.exit(0);  // 找到地址后自动停止运行并将公私钥以json格式保存到根文件夹内
-            //（After finding the address, it automatically stops running and saves the public and private keys in json format to the root folder）
+            process.exit(0);  
+            // 找到地址后自动停止运行并将公私钥以json格式保存到根文件夹内
+ //（After finding the address, it automatically stops running and saves the public and private keys in json format to the root folder）
         } else {
             totalAttempts += 10000;
             console.log(`Total Attempts: ${totalAttempts}`);
